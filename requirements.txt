@@ -1,0 +1,8 @@
+opencv-python
+numpy
+pytesseract
+mss
+python-dotenv
+google-generativeai
+markdown
+PyQt5

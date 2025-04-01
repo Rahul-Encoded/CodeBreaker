@@ -1,0 +1,5 @@
+# .gitignore file
+.env
+__pycache__/
+*.pyc
+# Add other files/directories to ignore as needed

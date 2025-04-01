@@ -1,0 +1,68 @@
++---------------------+
+|      Start          |
++---------+-----------+
+          |
+          v
++---------+-----------+
+|  Initialize Program |
+| - Import modules    |
+| - Set Tesseract path|
+| - Load API key      |
+| - Configure LLM     |
++---------+-----------+
+          |
+          v
++---------+-----------+
+|    Select Region    |
+| - Capture full screen|
+| - Display in OpenCV |
+| - Capture mouse events|
+| - Return region coords|
++---------+-----------+
+          |
+          v
++---------+-----------+
+|   Capture Question  |
+| - Capture region    |
+| - Preprocess image  |
+| - Perform OCR      |
+| - Return question text|
++---------+-----------+
+          |
+          v
++---------+-----------+
+|  Question Captured? |
++---------+-----------+
+          |
+       Yes |
+          v
++---------+-----------+
+|  Initialize GUI     |
+| - Create QApplication|
+| - Create TransparentOverlay|
++---------+-----------+
+          |
+          v
++---------+-----------+
+| Start LLM Processing|
+| - Initialize LLMThread|
+| - Connect signals    |
+| - Start thread       |
++---------+-----------+
+          |
+          v
++---------+-----------+
+| Update Overlay with |
+| LLM's answer         |
++---------+-----------+
+          |
+          v
++---------+-----------+
+|    Run Application  |
+| - Start event loop   |
++---------+-----------+
+          |
+          v
++---------+-----------+
+|        End          |
++---------------------+

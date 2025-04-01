@@ -1,12 +1,4 @@
-**README.md for CodeBreaker**  
-
----
-
 # **CodeBreaker**  
-![GitHub](https://img.shields.io/badge/CodeBreaker-GenZ%20Engineer-purple) ![GitHub](https://img.shields.io/badge/StealthModeActivated-Invisible-red)  
-
-> *"Built a thing. Broke a thing. Fixed a thing. Now let’s ship the thing."*  
-
 ---
 
 ## **What is CodeBreaker?**  
